@@ -1,0 +1,13 @@
+HYF
+Homework CLI
+1- .To create hidden file in windows:       touch <filename> && attrib +h
+   .To create hidden folder in windows:     mkdir <filename> && attrib +h <filename>
+   .To disply the hidden file:              ls 
+
+2- .To create multiple nested directories:    mkdir -p <foldername>/<foldername>/<foldername>
+   .To delete it                              rmdir -p <foldername>/<foldername>/<foldername>
+
+3-How do I append a message to a file, without a newline character.
+
+  .To append a message to file without a new character         echo "some text here" >> file.txt  or file name
+
